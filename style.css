@@ -1,0 +1,15 @@
+body{
+    background-color: azure;
+    font-family: Century, serif;
+    color: steelblue;
+    text-align: center;
+}
+.enlace{
+    font-weight: bold;
+    color:dodgerblue;
+    text-decoration: none;
+}
+.enlace:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
