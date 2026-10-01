@@ -2,7 +2,9 @@ body{
     background-color: azure;
     font-family: Century, serif;
     color: steelblue;
-    text-align: center;
+    text-align:justify;
+    padding:40px;
+    margin:0;
 }
 .enlace{
     font-weight: bold;
@@ -12,4 +14,16 @@ body{
 .enlace:hover{
     text-decoration: underline;
     text-decoration-thickness: 3px;
+}
+
+hr{
+    line-height:3px;
+    border-color: steelblue;
+    border-style:solid;
+    text-align:center;
+    margin:0 auto 30px auto;
+}
+
+li{
+    list-style-type:none;
 }
