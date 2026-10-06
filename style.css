@@ -2,7 +2,7 @@ body{
     background-color: azure;
     font-family: Century, serif;
     color: steelblue;
-    text-align:justify;
+    text-align:center;
     padding:40px;
     margin:0;
 }
@@ -24,6 +24,13 @@ hr{
     margin:0 auto 30px auto;
 }
 
-li{
+.menu{
     list-style-type:none;
+    text-align:center;
+    display:flex;
+    gap:30px;
+}
+
+.menu li{
+    list-style: disc;
 }
