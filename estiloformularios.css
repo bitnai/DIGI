@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-color: rgb(189 236 255 / 0.4);
+    font-family: Century Gothic;
+}
+
+.formulario input{
+    background-color: rgb(135 182 235 / 0.4);
+    font-weight: lighter;
+    font-family: Century Gothic;
+}
+.formulario input:last-child{
+    background-color: paleturquoise;
+    font-family: Georgia, Times, serif;
+}
