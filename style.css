@@ -1,4 +1,6 @@
 body{
+    background: linear-gradient(180deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%);
+    background-attachment: fixed;
     background-color: azure;
     font-family: Century, serif;
     color: steelblue;
@@ -25,12 +27,18 @@ hr{
 }
 
 .menu{
-    list-style-type:none;
     text-align:center;
     display:flex;
-    gap:30px;
+    gap:50px;
 }
 
 .menu li{
     list-style: disc;
+}
+
+.contenedor{
+    border: 2px solid;
+    padding:15px;
+    border-radius:8px;
+    width:450px;
 }
