@@ -1,7 +1,6 @@
 body{
     background: linear-gradient(180deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%);
     background-attachment: fixed;
-    background-color: azure;
     font-family: Century, serif;
     color: steelblue;
     text-align:center;
@@ -36,9 +35,23 @@ hr{
     list-style: disc;
 }
 
-.contenedor{
-    border: 2px solid;
-    padding:15px;
-    border-radius:8px;
-    width:450px;
+.unidad01 {
+    border: 2px solid #4a89bd;
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 40px;
+    width:50%;
+}
+
+.unidad01 h3 {
+    color: #4a89bd;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.unidad01 .menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 0;
 }
