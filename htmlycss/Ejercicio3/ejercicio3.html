@@ -3,8 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="formulario3.css">
 </head>
 <body>
+<form class=formulario" action="form.php" method="post">
+    <br>
+    <label>Habitaciones</label>
+    <input type="radio" name="habitaciones" value="1" id="h1"><label for="h1">1</label>
+    <input type="radio" name="habitaciones" value="2" id="h2"><label for="h2">2</label>
+    <input type="radio" name="habitaciones" value="3" id="h3"><label for="h3">3</label>
+    <input type="radio" name="habitaciones" value="4" id="h4"><label for="h4">4</label>
+    <input type="radio" name="habitaciones" checked value="5" id="h5"><label for="h5">5</label>
 
+    <br><br><br>
+    <label>Servicio</label>
+    <input type="radio" name="servicio" value="1" id="h6"><label for="h6">1</label>
+    <input type="radio" name="servicio" value="2" id="h7"><label for="h7">2</label>
+    <input type="radio" name="servicio" value="3" id="h8"><label for="h8">3</label>
+    <input type="radio" name="servicio" value="4" id="h9"><label for="h9">4</label>
+    <input type="radio" name="servicio" value="5" checked id="h10"><label for="h10">5</label>
+
+
+    <br><br><br>
+    <label>Ubicacion</label>
+    <input type="radio" name="ubicacion" value="1" id="h11"><label for="h11">1</label>
+    <input type="radio" name="ubicacion" value="2" id="h12"><label for="h12">2</label>
+    <input type="radio" name="ubicacion" value="3" id="h13"><label for="h13">3</label>
+    <input type="radio" name="ubicacion" value="4" id="h14"><label for="h14">4</label>
+    <input type="radio" name="ubicacion" value="5" checked id="h15"><label for="h15">5</label>
+
+    <br><br><br>
+    <label for="valoracion"></label>
+    <textarea id="valoracion" name="valoracion" cols="55" rows="10" placeholder="Comparte detalles de tu experiencia en este lugar"></textarea>
+
+    <br><br><br>
+
+    <label for="archivo" class="botonarchivos"> Añadir fotos y videos</label>
+    <input type="file" name="archivo" id="archivo" hidden>
+
+    <br><br><br>
+    <label>¿De qué tipo de viaje se trataba?</label>
+    <br><br>
+    <input type="radio" name="tipodeviaje" value="N" id="h16"><label for="h16">Negocios</label>
+    <input type="radio" name="tipodeviaje" value="V" checked id="h17"><label for="h17">Vacaciones</label>
+
+    <br><br><br>
+    <label>¿Con quién viajabas?</label>
+    <br><br>
+    <input type="radio" name="conquienviajabas" value="F" id="h18"><label for="h18">Familia</label>
+    <input type="radio" name="conquienviajabas" value="A" id="h19"><label for="h19">Amigos</label>
+    <input type="radio" name="conquienviajabas" value="P" id="h20"><label for="h20">Pareja</label>
+    <input type="radio" name="conquienviajabas" value="S" checked id="h21"><label for="h21">Solo/a</label>
+
+
+    <br><br><br>
+    <label>¿Qué fue lo más romántico de tu estancia?</label>
+    <br><br>
+    <input type="checkbox" name="estancia" value="Ambiente" id="h22"><label for="h22">Ambiente</label>
+    <input type="checkbox" name="estancia" value="Personal" id="h23"><label for="h23">Servicio del personal</label>
+    <input type="checkbox" name="estancia" value="Paquetes" id="h24"><label for="h24">Paquetes especiales</label>
+
+    <br><br><br>
+    <input type="submit" value="Enviar Reseña">
+
+</form>
 </body>
 </html>
