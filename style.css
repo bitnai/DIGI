@@ -40,7 +40,10 @@ hr{
     padding: 15px;
     margin: 30px auto;
     border-radius: 40px;
-    width:50%;
+
+    width: 90%;
+    max-width: 950px;
+    box-sizing: border-box;
 }
 
 .unidad01 h3 {
