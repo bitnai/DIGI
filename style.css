@@ -1,11 +1,12 @@
 body{
-    background: linear-gradient(180deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%);
+    background: linear-gradient(180deg, #e0ebfa 0%, #b2ccf2 50%, #003069 100%);
     background-attachment: fixed;
     font-family: Century, serif;
     color: steelblue;
     text-align:center;
     padding:40px;
     margin:0;
+    overflow: hidden;
 }
 .enlace{
     font-weight: bold;
@@ -57,4 +58,10 @@ hr{
     justify-content: center;
     gap: 30px;
     padding-left: 0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
