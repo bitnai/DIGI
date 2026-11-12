@@ -59,9 +59,3 @@ hr{
     gap: 30px;
     padding-left: 0;
 }
-
-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
