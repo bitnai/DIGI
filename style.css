@@ -4,7 +4,7 @@ body{
     font-family: Century, serif;
     color: steelblue;
     text-align:center;
-    padding:40px;
+    padding:1.5rem;
     margin:0;
     overflow: hidden;
 }
@@ -38,13 +38,11 @@ hr{
 
 .unidad {
     border: 2px solid #4a89bd;
-    padding: 15px;
-    margin: 30px auto;
+    padding: 1rem;
+    margin: 2rem auto;
     border-radius: 40px;
-
-    width: 90%;
-    max-width: 950px;
-    box-sizing: border-box;
+    width: 100%;
+    max-width: fit-content;
 }
 
 .unidad h3 {
